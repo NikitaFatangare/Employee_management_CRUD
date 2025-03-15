@@ -166,10 +166,10 @@
 
             <!-- Navigation Links -->
             <ul class="nav-links">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign-Up</a></li>
-                <li><a href="#">About us</a></li>
+                <li><a href="Opendashboard">Dashboard</a></li>
+                <li><a href="Openloginpage">Login</a></li>
+                <li><a href="Opensignuppage">Sign-Up</a></li>
+                <li><a href="Openaboutuspage">About us</a></li>
             </ul>
             <div class="menu-toggle">
                 <i class="fas fa-bars"></i>

@@ -90,4 +90,30 @@ public class EmployeeController {
 		m.addAttribute("data",allEmployee);
 		return "success";
 	}
+	
+	@RequestMapping("/Opendashboard")
+	public String openDashboard()
+	{
+		return "dashboard";
+	}
+	
+	@RequestMapping("/Openloginpage")
+	public String openloginpage()
+	{
+		
+		return "login";
+	}
+	
+	@RequestMapping("/Opensignuppage")
+	public String opensignuppage()
+	{
+		return "register";
+	}
+	
+	@RequestMapping("/Openaboutuspage")
+	public String openaboutuspage()
+	{
+		return "aboutus";
+	}
+	
 }
