@@ -35,12 +35,12 @@ public class EmployeeController {
 //		return "success";
 //	}
 	
-//	@RequestMapping("/login")
-//	public String loginPage2(@ModelAttribute Employee e) {
-//		
-//		si.saveEmployee(e);
-//		return "login";
-//	}
+	@RequestMapping("/login")
+	public String loginPage2(@ModelAttribute Employee e) {
+		
+		si.saveEmployee(e);
+		return "login";
+	}
 	
 	
 	@RequestMapping("/submit")
